@@ -1,0 +1,125 @@
+@font-face {
+    src: url(../fonts/Yekan-Bakh-Heavy.ttf);
+    font-family: 'YekanHeavy';
+}
+
+@font-face {
+    src: url(../fonts/Yekan-Bakh-Medium.ttf);
+    font-family: 'YekanMedium';
+}
+
+* {
+    box-sizing: border-box
+}
+
+:root {
+    font-size: 16px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    direction: rtl
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-5 {
+    width: 41.65%;
+}
+
+.col-6 {
+    width: 49.98%;
+}
+
+.content-container {
+    height: 100%;
+    background-color: #f4f4f4;
+    padding-right: 2rem;
+}
+
+.image-container {
+    height: 100%;
+    padding: 3rem 4rem;
+}
+
+.contact-container {
+    height: 100%;
+    background-color: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.contact-container a {
+    text-decoration: none;
+    margin-bottom: 1.25rem;
+}
+
+.contact-container i {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #ffc400;
+    transition: 0.3s;
+}
+
+.contact-container i:hover {
+    color: #ffffff;
+}
+
+.image-wrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/bg\(1\).jpg");
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.title {
+    width: 100%;
+    font-size: 4.5rem;
+    color: #1b1b1b;
+    font-family: 'YekanHeavy';
+}
+
+.lined-text {
+    /* text-decoration: underline;
+    text-decoration-color: #ffc400;
+    text-decoration-skip: ink; */
+}
+
+.gallery-btn {
+    cursor: pointer;
+    display: inline-block;
+    background-color: #ffc400;
+    border: 2px solid #ffc400;
+    border-radius: 1.25rem;
+    color: #ffffff;
+    padding: .625rem 2rem;
+    font-size: 1.25rem;
+    font-family: 'YekanMedium';
+    text-align: center;
+    transition: 0.2s;
+    font-weight: 500;
+}
+
+.gallery-btn:hover {
+    background-color: transparent;
+    border: 2px solid #ffc400;
+    color: #ffc400;
+}
